@@ -1,0 +1,13 @@
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="ActionSheet">
+<line id="Line 37" x1="4.5" y1="8.5" x2="13.5" y2="8.5" stroke="#445057" stroke-linecap="round"/>
+<line id="Line 38" x1="4.5" y1="18.5" x2="8.5" y2="18.5" stroke="#445057" stroke-linecap="round"/>
+<line id="Line 39" x1="4.5" y1="13.5" x2="8.5" y2="13.5" stroke="#445057" stroke-linecap="round"/>
+<line id="Line 31" x1="4.5" y1="0.5" x2="4.5" y2="3.5" stroke="#445057" stroke-linecap="round"/>
+<line id="Line 40" x1="9.5" y1="0.5" x2="9.5" y2="3.5" stroke="#445057" stroke-linecap="round"/>
+<line id="Line 41" x1="14.5" y1="0.5" x2="14.5" y2="3.5" stroke="#445057" stroke-linecap="round"/>
+<line id="Line 32" x1="19.5" y1="0.5" x2="19.5" y2="3.5" stroke="#445057" stroke-linecap="round"/>
+<path id="Subtract" d="M23 14V21.0909C23 22.1453 22.1792 23 21.1667 23H2.83333C1.82081 23 1 22.1453 1 21.0909V3.90909C1 2.85473 1.82081 2 2.83333 2H21.1667C22.1792 2 23 2.85473 23 3.90909V7" stroke="#445057" stroke-linecap="round"/>
+<path id="Vector" d="M20.241 7.30559L22.7063 9.794C23.0979 10.1892 23.0979 10.8479 22.7063 11.2431L16.2241 17.7716C15.9195 18.079 15.528 18.2985 15.0929 18.3717L11.917 18.9865C11.366 19.089 10.9019 18.5913 11.0179 18.0497L11.714 14.9319C11.801 14.522 12.004 14.1561 12.2941 13.8633L18.8054 7.32022C19.1969 6.89573 19.8495 6.89573 20.241 7.30559Z" fill="#0099F2" stroke="#445057" stroke-miterlimit="10"/>
+</g>
+</svg>

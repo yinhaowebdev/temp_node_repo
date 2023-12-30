@@ -1,0 +1,143 @@
+{
+    "name": "ActionSheet",
+    "alias": "底部模态框",
+    "version": "1.0.2",
+    "author": "吴世冬(2236)",
+    "groupAlias": "移动端组件",
+    "groupName": "mobile",
+    "type": "vue",
+    "description": "",
+    "order": 5410,
+    "attributes": [
+        {
+            "name": "appearance",
+            "visible": false,
+            "alias": "外观",
+            "attributes": [
+                {
+                    "name": "font-size",
+                    "visible": false
+                },
+                {
+                    "name": "color",
+                    "visible": false
+                },
+                {
+                    "name": "font-weight",
+                    "visible": false
+                },
+                {
+                    "name": "font-style",
+                    "visible": false
+                },
+                {
+                    "name": "line-height",
+                    "visible": false
+                },
+                {
+                    "name": "text-align",
+                    "visible": false
+                },
+                {
+                    "name": "letter-spacing",
+                    "visible": false
+                },
+                {
+                    "name": "text-decoration",
+                    "visible": false
+                }
+            ]
+        },
+        {
+            "name": "layout",
+            "alias": "布局",
+            "attributes": [
+                {
+                    "name": "span",
+                    "default": 24
+                },
+                {
+                    "name": "height",
+                    "value": "auto",
+                    "default": "auto"
+                },
+                {
+                    "name": "borderVisible",
+                    "visible": false,
+                    "alias": "边框显示",
+                    "type": "Boolean",
+                    "default": false,
+                    "changeHandler":"basicChangeHandler"
+                }
+            ]
+        },
+        {
+            "name": "base",
+            "alias": "基础",
+            "attributes": [
+                {
+                    "alias": "标签",
+                    "name": "label",
+                    "type": "String",
+                    "readonly": false,
+                    "default": "底部模态框",
+                    "minlength": 1,
+                    "maxlength": 50
+                },
+                {
+                    "alias": "列表项",
+                    "name": "actions",
+                    "type": "Complex[*]",
+                    "readonly": false,
+                    "default": "[{\"name\":\"选项一\"},{\"name\":\"选项二\"},{\"name\":\"选项三\"}]",
+                    "editor": "code",
+                    "visible": true
+                }
+            ]
+        },
+        {
+            "name": "events",
+            "alias": "事件",
+            "attributes": [
+                {
+                    "name": "onSelect",
+                    "alias": "点选",
+                    "type": "Complex",
+                    "attributes": [
+                        {
+                            "name": "content",
+                            "alias": "事件执行内容",
+                            "type": "Complex[*]",
+                            "inputVisible": false,
+                            "attributes": "smartAttrs.eventContent"
+                        },
+                        {
+                            "name": "description",
+                            "alias": "事件描述",
+                            "type": "String",
+                            "default": "点击按钮触发的动作",
+                            "readonly": true
+                        },
+                        {
+                            "name": "payload",
+                            "alias": "参数",
+                            "type": "Complex[1]",
+                            "readonly":true,
+                            "inputVisible": false,
+                            "attributes": "smartAttrs.payload",
+                            "default":[
+                                {"name": "item", "alias": "选项"}
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "methods",
+            "alias": "方法",
+            "visible": false,
+            "attributes": []
+        }
+    ]
+}
